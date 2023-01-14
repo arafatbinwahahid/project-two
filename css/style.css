@@ -1,5 +1,8 @@
 /* Universal Style */
 * {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 /* Common Style */
 .headingTwo__Common {
@@ -7,31 +10,85 @@
 .Coomon__btn {
 }
 /* Header Section Style */
+header {
+  /* padding top / left and right / bottom */
+  padding: 30px 120px 20px;
+  background-color: rgba(255, 144, 14, 0.1);
+}
 .Header__Top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 50px;
 }
 .Header-Title {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
 }
 .Header-Nav-Main {
+  display: flex;
+  gap: 30px;
 }
 .Header-Nav-Main > a {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #424242;
+  text-decoration: none;
 }
 /* Website Main Contant Style */
 .Web__Main__Con {
+  /* padding top / left and right / bottom */
+  padding: 0px 180px 20px;
 }
 /* Upper Title Section Style */
 .Title__Section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 .Title__Section__Main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
 }
 .Title__Section-Title {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  text-align: center;
+  color: #131313;
 }
 .Title__Section-Para {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #727272;
 }
 .Title__Section-Btn {
+  width: 180px;
+  height: 64px;
+  background: #ff900e;
+  border-radius: 8px;
+  border: none;
+  /*  */
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
 }
 .Title__Section__DivImg {
+  width: 100%;
+  object-fit: cover;
 }
 .Title__Section-Img {
+  width: 100%;
 }
 /* Quick list Image 4 and text Style */
 .Quick__list {
