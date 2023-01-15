@@ -356,9 +356,6 @@ header {
   gap: 20px;
   justify-content: space-between;
 }
-.Sponsor__sec_ImgI i {
-  font-size: 50px;
-}
 /* box Hover Effect */
 .Some__Box-Main:hover {
   background-color: #7abd8b;
@@ -556,8 +553,13 @@ footer {
   .Sponsor__Main-Para {
     font-size: 14px;
   }
-  .Sponsor__sec_ImgI i {
-    font-size: 30px;
+  .Sponsor__Sec-ImgDiv {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .Sponsor__sec_ImgI img {
+    height: 100%;
+    width: 100%;
   }
   /* footer section */
   footer {
