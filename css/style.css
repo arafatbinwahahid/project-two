@@ -8,7 +8,7 @@
 header {
   /* padding top / left and right / bottom */
   padding: 30px 120px 20px;
-  background-color: rgba(255, 144, 14, 0.1);
+  /* background-color: rgba(255, 144, 14, 0.1); */
 }
 .Header__Top {
   display: flex;
@@ -37,7 +37,7 @@ header {
 .Web__Main__Con {
   /* padding top / left and right / bottom */
   padding: 0px 180px 20px;
-  background-color: rgba(255, 144, 14, 0.1);
+  /* background-color: rgba(255, 144, 14, 0.1); */
 }
 /* Upper Title Section Style */
 .Title__Section {
@@ -265,6 +265,8 @@ header {
   gap: 10px;
   color: #000;
   transform: translate(0px, 70px);
+  display: flex;
+  align-items: center;
 }
 .Bon__Sec-Parathree > i {
   color: rgb(0, 217, 255);
@@ -303,12 +305,12 @@ header {
 .Some__Box-Main {
   border: 1px solid #ff900e;
   border-radius: 8px;
-  width: 230px;
-  height: 150px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .Some__Box-Title {
   font-family: "Work Sans";
@@ -395,6 +397,7 @@ footer {
   header {
     /* top | right | bottom | left */
     padding: 10px 30px 10px 30px;
+    background-color: white;
   }
   .Header-Title {
     font-size: 25px;
@@ -428,5 +431,139 @@ footer {
     height: 50px;
     border-radius: 5px;
     font-size: 15px;
+  }
+  /* 4 image div and text section */
+  .Quick__list {
+    /* padding top / left and right / bottom */
+    padding: 40px 10px 20px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .Quick__list-ImgMain {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 15px;
+  }
+  .Quick__list-ImgDiv {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    width: 100%;
+    height: 100%;
+  }
+  .Quick__list-TitleMain {
+    gap: 24px;
+    padding-left: 10px;
+  }
+  .Quick__list-Title {
+    padding-top: 20px;
+    font-size: 35px;
+  }
+  #Of-our {
+    font-size: 35px;
+  }
+  #Features {
+    font-size: 35px;
+  }
+  .Quick__list-Para {
+    font-size: 14px;
+  }
+  /* features section */
+  .Features__Sec {
+    padding-top: 10px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .Features__Sec-DivMain {
+    gap: 15px;
+  }
+  .Features__Sec-Title {
+    font-size: 40px;
+  }
+  .Features__Sec-Para {
+    font-size: 20px;
+  }
+  .Features__Sec-LTitle {
+    font-size: 18px;
+  }
+  .Features__Sec-LPara {
+    font-size: 14px;
+  }
+  .Features__Sec-DivImg {
+    padding-top: 30px;
+  }
+  .Features__Sec-Btn {
+    width: 300px;
+    font-size: 35px;
+  }
+  #Experience {
+    font-size: 25px;
+    color: rgb(159, 219, 204);
+    letter-spacing: 5px;
+  }
+  /* Bonush Section */
+  .Bon__Sec__main {
+    padding-left: 50px;
+  }
+  .Bon__Sec-heading {
+    font-size: 35px;
+  }
+  .Bon__Sec-Paratwo {
+    font-size: 20px;
+  }
+  .Bon__Sec-Parathree {
+    font-size: 15px;
+  }
+  .Bon__Sec-Parathree > i {
+    color: rgb(0, 0, 0);
+  }
+  /* website some fact section */
+  .Some__Sec {
+    padding-top: 50px;
+  }
+  .Some__Title-Main {
+    gap: 10px;
+  }
+  .Some__Title-Title {
+    font-size: 35px;
+  }
+  .Some__Title-Para {
+    font-size: 14px;
+  }
+  .Some__Box-Main {
+    padding: 10px;
+  }
+  .Some__Box-Title {
+    font-size: 20px;
+  }
+  .Some__Box-Para {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+  }
+  .Some__Box-Icon {
+    height: 50px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* Website Sponsor Section */
+  .Sponsor__Sec-Main {
+    text-align: center;
+  }
+  .Sponsor__Main-Title {
+    font-size: 35px;
+  }
+  .Sponsor__Main-Para {
+    font-size: 14px;
+  }
+  .Sponsor__sec_ImgI i {
+    font-size: 30px;
+  }
+  /* footer section */
+  footer {
+    padding: 0px 80px 20px;
+  }
+  .Footer__Para {
+    text-align: center;
   }
 }
