@@ -106,7 +106,7 @@ header {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 50px;
-  width: 342px;
+  width: 300px;
   height: 342px;
 }
 .Quick__list-Img {
@@ -117,7 +117,7 @@ header {
   flex-direction: column;
   justify-content: center;
   gap: 24px;
-  padding-left: 50px;
+  padding-left: 10px;
 }
 .Quick__list-Title {
   font-family: "Work Sans", sans-serif;
@@ -181,13 +181,28 @@ header {
   color: #727272;
 }
 .Features__Sec-DivImg {
-  height: 650px;
+  height: 100%;
 }
 .Features__Sec-Img {
   width: 100%;
   height: 100%;
   border-radius: 8px;
   object-fit: cover;
+}
+.Features__Sec-Btn {
+  width: 200px;
+  height: 100px;
+  border: none;
+  background: #ff900e;
+  border-radius: 8px;
+  transform: translate(-20px, -130px);
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 25px;
+  color: #ffffff;
+}
+#Experience {
+  font-size: 15px;
 }
 /* Website Some Fact Sec Style */
 .Some__Sec {
@@ -230,8 +245,6 @@ header {
   justify-content: center;
   align-items: center;
 }
-.Some__Box-Icon {
-}
 .Some__Box-Title {
   font-family: "Work Sans";
   font-weight: 600;
@@ -246,19 +259,66 @@ header {
 }
 /* Website Sponsor Section Style */
 .Sponsor__Sec {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 .Sponsor__Sec-Main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
 .Sponsor__Main-Title {
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
 }
 .Sponsor__Main-Para {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
 }
 .Sponsor__Sec-ImgDiv {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
 }
-.Sponsor__Sec-ImgDiv > img {
+.Sponsor__sec_ImgI i {
+  font-size: 50px;
+}
+/* box Hover Effect */
+.Some__Box-Main:hover {
+  background-color: #7abd8b;
+}
+.Some__Box-Main:hover .Some__Box-Title {
+  color: rgb(255, 255, 255);
+}
+.Some__Box-Main:hover .Some__Box-Para {
+  color: rgb(255, 255, 255);
 }
 /* Website Footer Section sTyle */
-.Footer__Main {
+footer {
+  padding: 0px 180px 20px;
+}
+.Footer__Main-Div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  border-radius: 8px;
+  background-color: #fff4e7;
 }
 .Footer__Para {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #424242;
 }
