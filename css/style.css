@@ -4,11 +4,6 @@
   margin: 0px;
   padding: 0px;
 }
-/* Common Style */
-.headingTwo__Common {
-}
-.Coomon__btn {
-}
 /* Header Section Style */
 header {
   /* padding top / left and right / bottom */
@@ -42,6 +37,7 @@ header {
 .Web__Main__Con {
   /* padding top / left and right / bottom */
   padding: 0px 180px 20px;
+  background-color: rgba(255, 144, 14, 0.1);
 }
 /* Upper Title Section Style */
 .Title__Section {
@@ -390,4 +386,47 @@ footer {
   font-size: 20px;
   line-height: 23px;
   color: #424242;
+}
+/* Responsive ness for Mobile */
+.hide {
+  display: none;
+}
+@media only screen and (max-width: 576px) {
+  header {
+    /* top | right | bottom | left */
+    padding: 10px 30px 10px 30px;
+  }
+  .Header-Title {
+    font-size: 25px;
+  }
+  .Header-Nav-Main {
+    gap: 10px;
+  }
+  .Header-Nav-Main > a {
+    font-size: 15px;
+  }
+  /* Website Main Contant */
+  .Web__Main__Con {
+    /* padding top / left and right / bottom */
+    padding: 0px 50px 20px;
+  }
+  /* Upper Title Section Style */
+  .Title__Section {
+    gap: 30px;
+  }
+  .Title__Section__Main {
+    gap: 20px;
+  }
+  .Title__Section-Title {
+    font-size: 35px;
+  }
+  .Title__Section-Para {
+    font-size: 13px;
+  }
+  .Title__Section-Btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 15px;
+  }
 }
