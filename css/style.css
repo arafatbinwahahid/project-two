@@ -92,14 +92,173 @@ header {
 }
 /* Quick list Image 4 and text Style */
 .Quick__list {
+  /* padding top / left and right / bottom */
+  padding: 100px 30px 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 .Quick__list-ImgMain {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 .Quick__list-ImgDiv {
+  /* background-color: aqua; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 50px;
+  width: 342px;
+  height: 342px;
 }
 .Quick__list-Img {
+  width: 100%;
 }
 .Quick__list-TitleMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  padding-left: 50px;
 }
 .Quick__list-Title {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  font-size: 45px;
+  color: #727272;
+}
+#Of-our {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+#Features {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  color: #ff900e;
+}
+.Quick__list-Para {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+/* Website Features Section Style */
+.Features__Sec {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.Features__Sec-DivMain {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-right: 25px;
+}
+.Features__Sec-Title {
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+.Features__Sec-Para {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+.Features__Sec-LTitle {
+  padding-left: 20px;
+  font-family: "Work Sans";
+  font-weight: 600;
+  font-size: 20px;
+  color: #131313;
+}
+.Features__Sec-LPara {
+  padding-left: 20px;
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+.Features__Sec-DivImg {
+  height: 650px;
+}
+.Features__Sec-Img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+/* Website Some Fact Sec Style */
+.Some__Sec {
+  padding-top: 80px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.Some__Title-Main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Some__Title-Title {
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+.Some__Title-Para {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+.Some__Box-Main-boss {
+  padding: 0px 50px 0px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.Some__Box-Main {
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  width: 230px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Some__Box-Icon {
+}
+.Some__Box-Title {
+  font-family: "Work Sans";
+  font-weight: 600;
+  font-size: 45px;
+  color: #424242;
+}
+.Some__Box-Para {
+  font-family: "Work Sans";
+  font-weight: 600;
+  font-size: 20px;
+  color: #727272;
+}
+/* Website Sponsor Section Style */
+.Sponsor__Sec {
+}
+.Sponsor__Sec-Main {
+}
+.Sponsor__Main-Title {
+}
+.Sponsor__Main-Para {
+}
+.Sponsor__Sec-ImgDiv {
+}
+.Sponsor__Sec-ImgDiv > img {
+}
+/* Website Footer Section sTyle */
+.Footer__Main {
+}
+.Footer__Para {
 }
